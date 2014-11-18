@@ -1,0 +1,29 @@
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\bin\Release\Tanks.exe
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\bin\Release\Tanks.pdb
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Release\Tanks.MainForm.resources
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Release\Tanks.Properties.Resources.resources
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Release\Tanks.exe
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Release\Tanks.pdb
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\bin\Release\Tanks.exe
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\bin\Release\Tanks.pdb
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Release\Tanks.Controller_MainForm.resources
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Release\Tanks.Properties.Resources.resources
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Release\Tanks.View.resources
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Release\Tanks.exe
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Release\Tanks.pdb
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\obj\x86\Release\Tanks.exe
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\obj\x86\Release\Tanks.pdb
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\bin\Release\Tanks.exe
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\bin\Release\Tanks.pdb
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\obj\x86\Release\Tanks.Controller_MainForm.resources
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\obj\x86\Release\Tanks.Properties.Resources.resources
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\obj\x86\Release\Tanks.View.resources
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Julia\Desktop\C#Projects!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\Tanks\Tanks\obj\x86\Release\GenerateResource.write.1.tlog

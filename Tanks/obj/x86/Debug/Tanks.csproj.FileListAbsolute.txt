@@ -1,0 +1,19 @@
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\bin\Debug\Tanks.exe
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\bin\Debug\Tanks.pdb
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Debug\Tanks.Properties.Resources.resources
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Debug\Tanks.exe
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Debug\Tanks.pdb
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Debug\Tanks.Controller_MainForm.resources
+C:\Users\Julia\AppData\Local\Temporary Projects\Tanks\obj\x86\Debug\Tanks.View.resources
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Debug\Tanks.exe
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Debug\Tanks.pdb
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\bin\Debug\Tanks.exe
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\bin\Debug\Tanks.pdb
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Debug\Tanks.Controller_MainForm.resources
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Debug\Tanks.Properties.Resources.resources
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Debug\Tanks.View.resources
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Debug\Tanks.csprojResolveAssemblyReference.cache
+C:\Users\Julia\Desktop\C#Projects\Tanks\Tanks\obj\x86\Debug\Tanks.csproj.GenerateResource.Cache

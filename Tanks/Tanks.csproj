@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FBC5565-E6AF-42E0-836E-5429829B1B90}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tanks</RootNamespace>
+    <AssemblyName>Tanks</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>keyFile.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller_MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller_MainForm.Designer.cs">
+      <DependentUpon>Controller_MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameStatus.cs" />
+    <Compile Include="Heart.cs" />
+    <Compile Include="HeartImg.cs" />
+    <Compile Include="Hunter.cs" />
+    <Compile Include="HunterImg.cs" />
+    <Compile Include="IPicture.cs" />
+    <Compile Include="IRun.cs" />
+    <Compile Include="ITransparent.cs" />
+    <Compile Include="ITurn.cs" />
+    <Compile Include="IUTurn.cs" />
+    <Compile Include="Model.cs" />
+    <Compile Include="PackMan.cs" />
+    <Compile Include="PackManImg.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Projectile.cs" />
+    <Compile Include="ProjectileImg.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tank.cs" />
+    <Compile Include="TankImg.cs" />
+    <Compile Include="View.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wall.cs" />
+    <Compile Include="WallImg.cs" />
+    <EmbeddedResource Include="Controller_MainForm.resx">
+      <DependentUpon>Controller_MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="keyFile.snk" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monsterDown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monsterUp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monsterLeft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monsterRight.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apple.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kalimba.wav" />
+    <Content Include="Resources\MenuIcons\Exit.png" />
+    <Content Include="Resources\MenuIcons\Info.png" />
+    <Content Include="Resources\MenuIcons\NewGame.png" />
+    <Content Include="Resources\MenuIcons\NoSound.png" />
+    <Content Include="Resources\MenuIcons\SoundOn.png" />
+    <Content Include="Resources\PauseButton.gif" />
+    <Content Include="Resources\PlayButton.gif" />
+    <Content Include="Resources\ProjectileImage\Projectile01.bmp" />
+    <Content Include="Resources\ProjectileImage\Projectile0_1.bmp" />
+    <Content Include="Resources\ProjectileImage\Projectile10.bmp" />
+    <Content Include="Resources\ProjectileImage\Projectile_10.bmp" />
+    <None Include="Resources\hunter.bmp" />
+    <Content Include="Resources\PackMan\PackManDown\PackManDown0.bmp" />
+    <Content Include="Resources\PackMan\PackManDown\PackManDown1.bmp" />
+    <Content Include="Resources\PackMan\PackManDown\PackManDown2.bmp" />
+    <Content Include="Resources\PackMan\PackManDown\PackManDown3.bmp" />
+    <Content Include="Resources\PackMan\PackManDown\PackmanDown4.bmp" />
+    <Content Include="Resources\PackMan\PackManLeft\PackManLeft0.bmp" />
+    <Content Include="Resources\PackMan\PackManLeft\PackManLeft1.bmp" />
+    <Content Include="Resources\PackMan\PackManLeft\PackManLeft2.bmp" />
+    <Content Include="Resources\PackMan\PackManLeft\PackManLeft3.bmp" />
+    <Content Include="Resources\PackMan\PackManLeft\PackmanLeft4.bmp" />
+    <Content Include="Resources\PackMan\PackManRight\PackManRight0.bmp" />
+    <Content Include="Resources\PackMan\PackManRight\PackManRight1.bmp" />
+    <Content Include="Resources\PackMan\PackManRight\PackManRight2.bmp" />
+    <Content Include="Resources\PackMan\PackManRight\PackManRight3.bmp" />
+    <Content Include="Resources\PackMan\PackManRight\PackmanRight4.bmp" />
+    <Content Include="Resources\PackMan\PackManUp\PackManUp0.bmp" />
+    <Content Include="Resources\PackMan\PackManUp\PackManUp1.bmp" />
+    <Content Include="Resources\PackMan\PackManUp\PackManUp2.bmp" />
+    <Content Include="Resources\PackMan\PackManUp\PackManUp3.bmp" />
+    <Content Include="Resources\PackMan\PackManUp\PackmanUp4.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
